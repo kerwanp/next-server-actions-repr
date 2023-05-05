@@ -4,7 +4,7 @@ import { action } from "./_actions";
 export default function Home() {
   return (
     <form action={action}>
-      <input type="text" />
+      <input type="text" name="name" />
       <button type="submit">Hello</button>
     </form>
   );
