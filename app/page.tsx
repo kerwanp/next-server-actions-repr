@@ -1,4 +1,11 @@
+import { action } from "./_actions";
+
 /** Add your relevant code here for the issue to reproduce */
 export default function Home() {
-  return null
+  return (
+    <form action={action}>
+      <input type="text" />
+      <button type="submit">Hello</button>
+    </form>
+  );
 }
